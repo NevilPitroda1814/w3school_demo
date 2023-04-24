@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{cursor: pointer;}
+.green_bg_btn{
+    background-color: #04aa6d;
+    padding: 10px 20px;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 50px;
+}
+.dark_bg_btn{
+    background-color: #282a35;
+    padding: 10px 20px;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 50px;
+}
+
+
+nav{
+    display: flex;
+    background-color: white;
+}
+.menu{
+    justify-content:center;
+    align-self: center;
+    margin-right: 5px;
+}
+.button{
+    align-self: center;
+    float: right;
+}
+nav img{
+    margin: 2%;
+    height: 30px;
+    width: 40px;
+}
+.nav_menu ul{
+    display: flex;
+    list-style: none;
+}
+.nav_menu ul li{
+    margin:10px;
+    font-size: larger;
+    cursor: pointer;
+}
+.nav_menu ul li select{
+    border: none;
+    font-size: large;
+    cursor: pointer;
+}
+.nav_menu button{
+    margin:10px 5px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.btn_upgrade{
+    background-color: #9763f6;
+    font-size: large;
+    color: white;
+}
+.btn_certified{
+    background-color: rgb(254, 166, 180);
+    font-size: large;
+    color: black;
+}
+
+.btn_web{
+    background-color: #fff4a3;
+    font-size: large;
+    color: black;
+}
+.singup_btn{
+    background-color: #04aa6d;
+    font-size: large;
+    color: white;
+}
+.login_btn{
+    background-color: rgb(186, 235, 186);
+    font-size: large;
+    color: black;
+}
+.login_btn:hover{
+    background-color: #04aa6d;
+    color: white;
+}
+/* Main section css */
+.first_screen{
+    position: relative;
+    background-color: #282a35;
+    color: white;
+    text-align: center;
+    padding: 10%;
+    background-image: linear-gradient(315deg,#282a35 0%,#282a35 50%);
+}
+.first_screen::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: url(wave.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first_screen h2{
+    font-size: 90px;
+    margin: 0;
+}
+.first_screen p{
+    font-size: 30px;
+    color: pink;
+    padding: 5px;
+}
+
+.search_btn{
+    margin: 5%;
+    padding: 0%;
+}
+.search_btn input{
+    border: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 50px 0  0 50px;
+}
+.search_btn svg{
+    background-color: #04aa6d;
+    padding:10px 20px 10px 10px ;
+    margin-left: -5px;
+    margin-bottom: -13.5px;
+    border-radius: 0 50px 50px 0 ;
+}
+.first_screen a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
+/* html section */
+.html_section{
+    background-color: #d9eee1;
+    padding: 5%;
+    width: 90%;
+    display: flex;
+}
+
+.css_section{
+    background-color: #fff4a3;
+    padding: 5%;
+    width: 90%;
+    display: flex;
+}
+.js_section{
+    color: white;
+    background-color: rgb(26, 26, 39);;
+    padding: 5%;
+    width: 90%;
+    display: flex;
+}
+.text_part{
+    padding: 0px 30px;
+    text-align: center;
+    justify-content: center;}
+.text_part h3{
+    font-size: 60px;
+    margin: 0;
+}
+.text_part p{
+    font-size: 30px;
+    margin: 0;
+}
+.text_part button{
+    border: none;
+    padding: 3% 5%;
+    margin: 3%;
+    display: block;
+    width: 50%;
+    border-radius: 50px;
+    color: white;
+    font-size: large;
+}
+.tutorial_btn{background-color: #fff4a3;}
+.refernc_btn{background-color: #282a35;}
+.certifide_btn{background-color: rgb(254, 166, 180);}
+
+.img_part img{
+    margin: 5%;
+    border-radius: 10px;
+}
+
+/* more language cards */
+.more_lang_card{
+    background-color: #282a35;
+}
+.more_lang_card .frst_div,.more_lang_card .snd_div,.more_lang_card .third_div{
+    width: 100%;
+    display: flex;
+}
+
+.more_lang_card .fourth_div{
+    width: 100%;
+    display: flex;
+}
+.php_card{
+    background-color: rgb(254, 166, 180);
+    padding: 3%;
+    width: 50%;
+    margin: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.jquery_card{
+    background-color: #fff4a3;
+    padding: 3%;
+    width: 50%;
+    margin: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.java_card{
+    background-color: white;
+    padding: 3%;
+    width: 50%;
+    margin: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.cpp_card{
+    background-color: #d9eee1;
+    padding: 3%;
+    width: 50%;
+    margin: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.c_div{
+    background-color: #ffc0c7;
+    padding: 3%;
+    width: 50%;
+    margin: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.cs_div{
+    background-color: #fff4a3;
+    padding: 3%;
+    width: 50%;
+    margin: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.r_div{
+    background-color: #d9eee1;
+    padding: 3%;
+    width: 25%;
+    margin: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.kotlin_div{
+    background-color: #9763f6;
+    padding: 3%;
+    width: 25%;
+    margin: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.nodejs_div{
+    background-color: #fff4a3;
+    padding: 3%;
+    width: 25%;
+    margin: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.react_div{
+    background-color: #ffc0c7;
+    padding: 3%;
+    width: 25%;
+    margin: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.php_card h3,.jquery_card h3,.java_card h3,.cpp_card h3,.c_div h3,.cs_div h3{
+    font-size: 40px;
+    margin: 3%;
+}
+.php_card p,.jquery_card p,.java_card p,.cpp_card p,.c_div p,.cs_div p{
+    font-size: larger;
+    margin: 3%;
+}
+/* code edior */
+.codeeditor_section{
+    background-color: #282a35;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+.codeeditor_section h3{
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+}
+.codeeditor_section p{
+    font-size: large;
+    text-align: center;
+}
+.codeeditor_section img{
+    margin: 20px;
+}
+.backend_btn{
+    background-color: #fff4a3;
+    padding: 10px 20px;
+    font-size: larger;
+    border: none;
+    color: black;
+    margin-top: 2%;
+    border-radius: 50px;
+}
+/* W3School spaces  */
+.W3space_section{
+    background-color: #282a35;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+.W3space_section h3{
+    font-size: 50px;
+    margin: 10px;
+}
+.W3space_section p{
+    font-size: 30px;
+}
+.W3space_section p a{
+    color: rgb(254, 166, 180);
+}
+/* how it work css */
+.how_work{
+    background-color: #282a35;
+    padding: 5%;
+    text-align: center;
+}
+
+/* My learning css */
+.mylearning{
+    background-color: #d9eee1;
+    padding: 5%;
+    text-align: center;
+}
+.mylearning h3{
+    font-size: 60px;
+    margin: 3px;
+}
+.mylearning p{
+    font-size: 25px;
+}
+/*  PRO User CSS*/
+.prouser{
+    background-color: #282a35;
+    text-align: center;
+    padding: 5%;
+    color: white;
+}
+.prouser h3{
+    font-size: 40px;
+    margin: 8px;
+}
+.prouser p{
+    font-size: 25px;
+    color: #ffc0c7;
+}
+.prouser li{
+    margin: 20px;
+    font-size: 20px;
+    text-align: start;
+    margin-left: 450px;
+}
+/* Color picker css */
+.colorpicker{
+    background-color: aliceblue;
+    padding: 5%;
+    text-align: center;
+}
+.colorpicker h3{
+    font-size: 60px;
+    margin: 3px;
+}
+.colorpicker p,.code_game p{
+    font-size: 30px;
+}
+/* code game css */
+.code_game{
+    background-color: #d9eee1;
+    padding: 5%;
+    text-align: center;
+}
+.code_game h3{
+    font-size: 60px;
+    margin: 3px;
+}
+/* Exsercise & Quizzes */
+.exser_and_quiz{
+    background-color: #282a35;
+    text-align: center;
+    padding: 5%;
+    color: white;
+}
+.exser_and_quiz h3{
+    font-size: 50px;
+    margin: 3px;
+}
+.exser_and_quiz p{
+    font-size: 20px;
+}
+.exser_and_quiz div{
+    display: flex;
+    width: 50%;
+}
+.exercies_div{
+    background-color: #04aa6d;
+    padding: 10% 30%;
+    margin: 3%;
+    border-radius: 10px;
+}
+.quiz_div{
+    background-color: #fff4a3;
+    padding: 10% 30%;
+    margin: 3%;
+    border-radius: 10px;
+    color: black;
+}
+/* web template css */
+.web_temp{
+    padding: 5%;
+    background-color: #d9eee1;
+    text-align: center;
+}
+.web_temp h3{
+    font-size: 60px;
+    margin: 3px;
+}
+.web_temp p{
+    font-size: 20px;
+}
+/* start career css */
+.start_your_career{
+    background-color: #282a35;
+    color: rgb(254, 166, 180);
+    padding: 5%;
+    display: flex;
+    position: relative;
+}
+.txt_start_your_career h3{ font-size: 50px;}
+.txt_start_your_career h4{font-size: 30px;}
+.w3s_certified_icon{
+    position: absolute;
+    right: 20px;
+    bottom: -60px;
+}
+
+.how_to_section{
+    text-align: center;
+    padding: 5%;
+}
+.how_to_section h3{
+    font-size: 50px;
+    margin: 3px;
+}
+.how_to_section p{
+    font-size: 20px;
+}
+
+/* footer css */
+footer{
+    background-color: #282a35;
+    padding: 3%;
+    color: white;
+}
+footer .footer_icon_btn{
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+}
+.foot_btn{
+    width: 80%;
+}
+.foot_btn button{
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    font-size: large;
+}
+.social_icon h4{
+    font-size: large;
+}
+.social_icon svg{
+    margin: 10px;
+}
+.terms_and_conditions{
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width:767px) {
+    *{margin: 0;padding: 0;}
+    .first_screen h2,.first_screen p,.first_screen a{font-size: medium;}
+    .first_screen input{
+        width: 50%;
+    }
+    .first_screen::before{height: 30px;}
+    .html_section{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .css_section{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .js_section{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    /* h3 & p tag responsive */
+    .html_section h3,.html_section p,.css_section h3,.css_section p,.js_section p,.js_section h3,.W3space_section h3,.W3space_section p,.codeeditor_section h3,.codeeditor_section p,.mylearning h3,.mylearning p,.how_to_section h3,.how_to_section p,.start_your_career h3,.start_your_career h4,.web_temp h3,.web_temp p,.exser_and_quiz h3,.exser_and_quiz p,.code_game h3,.code_game p,.colorpicker h3,.colorpicker p,.prouser h3,.prouser p
+    {font-size: medium;}
+    /* button tag responsive */
+    .html_section button,.css_section button,.js_section button{width: 80%;}
+    .text_part button{margin: 8%;}
+    /* img tag responsive */
+    .html_section img,.css_section img,.js_section img,.W3space_section img,.how_work img, .codeeditor_section img,.mylearning img,.web_temp img,.how_to_section img
+    {width: 100%;margin: 0;}
+
+    .more_lang_card{padding: 3%;justify-content: center;}
+    .more_lang_card .frst_div,.more_lang_card .snd_div,.more_lang_card .third_div,.more_lang_card .fourth_div{
+        display: block;
+        text-align: center;
+    }
+
+    .php_card,.jquery_card,.java_card,.cpp_card,.c_div,.cs_div,.r_div,.kotlin_div,.nodejs_div,.react_div{width: 80%;}
+    .prouser li{
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .start_your_career{
+        display: block;
+        padding: 5%;
+    }
+    .start_your_career h3,.start_your_career h4{margin: 5px;}
+    .start_your_career img{display: none;}
+
+    nav{display: none;}
+
+    .footer_icon_btn{display: block;}
+    .terms_and_conditions{font-size: small;}
+}
